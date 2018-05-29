@@ -9,13 +9,15 @@ import { ListaPessoaComponent } from './lista-pessoa/lista-pessoa.component';
 import { AlertaService } from './alerta.service';
 import { InterpolationBindingComponent } from './interpolation-binding/interpolation-binding.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaPessoaComponent,
     InterpolationBindingComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
