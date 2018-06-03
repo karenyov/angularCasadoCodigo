@@ -16,6 +16,7 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     NgForComponent,
     NgClassComponent,
     NgStyleComponent,
-    NgContentComponent
+    NgContentComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
