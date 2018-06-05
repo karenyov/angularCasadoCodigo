@@ -17,6 +17,7 @@ import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { InputOutputComponent } from './input-output/input-output.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     NgClassComponent,
     NgStyleComponent,
     NgContentComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    InputOutputComponent
   ],
   imports: [
     BrowserModule,

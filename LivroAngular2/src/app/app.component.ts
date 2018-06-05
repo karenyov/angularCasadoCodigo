@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'Livro Angular 2'; //interpolation
   foto: string = 'favicon.ico'; //property bind
   nome: string = "Thiago"; //two-way data binding
+  desenvolvimento: string[] = ['Angular 2', 'JavaScript', 'TypeScript', 'HTML', 'CSS'];
 
   constructor(private service: AlertaService) {
 
