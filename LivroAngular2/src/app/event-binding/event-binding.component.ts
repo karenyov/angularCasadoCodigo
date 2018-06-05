@@ -9,6 +9,7 @@ export class EventBindingComponent implements OnInit {
 
   habilitarBotao: boolean = false;
   valores: string[] = [];
+  idade: number = 0;
 
   constructor() { }
 
@@ -40,6 +41,11 @@ export class EventBindingComponent implements OnInit {
 
   adicionar(conteudo: string): void {
     this.valores.push(conteudo);
+  }
+
+  verIdade(valor): void {
+    let ano = new Date();
+    this.idade = ano.getFullYear() - valor;
   }
 
 }
