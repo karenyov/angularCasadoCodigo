@@ -12,6 +12,7 @@ export class AppComponent {
   foto: string = 'favicon.ico'; //property bind
   nome: string = "Thiago"; //two-way data binding
   desenvolvimento: string[] = ['Angular 2', 'JavaScript', 'TypeScript', 'HTML', 'CSS'];
+  valor: string;
 
   constructor(private service: AlertaService) {
 
@@ -19,5 +20,9 @@ export class AppComponent {
 
   enviarMsg(): void {
     this.service.msgAlerta();
+  }
+
+  valorPassado(valorPassado) {
+    this.valor = valorPassado;
   }
 }
