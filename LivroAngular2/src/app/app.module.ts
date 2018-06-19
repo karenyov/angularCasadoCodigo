@@ -20,6 +20,7 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { InputOutputComponent } from './input-output/input-output.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { DiComponent } from './di/di.component';
+import { Angular4Component } from './angular4/angular4.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { DiComponent } from './di/di.component';
     EventBindingComponent,
     InputOutputComponent,
     FormularioComponent,
-    DiComponent
+    DiComponent,
+    Angular4Component
   ],
   imports: [
     BrowserModule,
